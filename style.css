@@ -1,0 +1,160 @@
+header li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(240, 255, 255);
+    padding: 30px 30px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #f0f0f0
+  }
+  header ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  header a {
+    transition: transform 0.5s;
+  }
+  header a:hover {
+    transform: scale(1.2);
+    /* font-size: 20px; */
+   /* transition: transform 0.5s;*/
+  }
+  * {
+    font-family: garamond;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+  }
+  body  {
+    margin: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1130%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(212%2c 217%2c 140%2c 1)'%3e%3c/rect%3e%3cpath d='M-324.27 997.95C-105.46 995 88.97 738.03 511.78 738.75 934.6 739.47 1103.41 1231.96 1347.84 1251.88' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-209.72 582.19C-6.69 575.28 224.43 243.6 535.47 258.19 846.51 272.78 727.94 977.01 908.06 1131.66' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-259.98 354.97C-50.46 384.12 6.74 831.8 408.8 873.37 810.85 914.94 884.54 1249.36 1077.57 1263.25' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-305.67 571.44C-108.91 594.91-25.78 1015.57 336.64 1035.84 699.06 1056.11 809.85 1245.43 978.95 1248.16' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-86.46 558.59C53.48 559.6 185.17 693.59 456.81 693.59 728.44 693.59 693.32 541.29 1000.08 558.59 1306.84 575.89 1334.27 1189.31 1543.35 1267.88' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1130'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    hyphens: auto;
+  }
+  .image {
+  margin: 30px 30px 30px 90px;
+  border: 2px outset yellow;
+  max-width: 50%;
+  }
+  .photo {
+    display: flex;
+    align-items: center;
+  }
+  p {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+  }
+  .photo-text {
+  flex-grow: 1;
+  padding: 20px;
+  flex-direction: column;
+  max-width: 310px;
+  hyphens: auto;
+  text-indent: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  border-radius: 20%;
+  }
+  .projects li a {
+    color:rgb(240, 255, 255);
+    padding: 30px 30px;
+    text-decoration: none;
+  
+  }
+  div li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .projects a {
+  transition: transform 0.5s;
+  }
+  .projects a:hover {
+    transform: scale(1.2);
+  }
+  #textContainer {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  #hiddenText {
+    display: none;
+  }
+  #showButton {
+    text-align: center;
+    display: block;
+    margin: 0 auto
+  }
+   main button {
+    background-color:#EEE8AA;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    font-size: large;
+  }
+   main button:hover {
+    background-color:#DAA520;
+    color: black;
+    transform: scale(1.1);
+  }
+  .experience {
+    margin: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    text-indent: 1em;
+    hyphens: auto;
+    text-align: justify;
+  }
+  button.instagram {
+    margin: 10px;
+    transition: color 0.3s;
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+    transition: transform 0.5s;
+    background: none;
+  }
+  .instagram:hover {
+    transform: scale(1.1); 
+  }
+  button.telegram {
+    margin: 10px;
+    transition: color 0.3s;
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+    transition: transform 0.5s;
+    background: none; 
+  }
+  .telegram:hover {
+    transform: scale(1.1);
+  }
+  button.facebook {
+    margin: 10px;
+    transition: color 0.3s;
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+    transition: transform 0.5s;
+    background: none;
+  }
+  .facebook:hover {
+    transform: scale(1.1);
+  }
+  div.buttons {
+    display: flex;
+    justify-content: center;
+  }
